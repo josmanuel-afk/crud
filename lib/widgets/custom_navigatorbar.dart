@@ -17,7 +17,7 @@ class CustomNavigatorBar extends StatelessWidget {
       currentIndex: currentIndex,
       onTap: (int i) {
         if(i == 1){
-          notesProvider.resetNoteData();
+          notesProvider.resetAlumnoData();
         }
         actualOptionProvider.selectedOption = i;
       },

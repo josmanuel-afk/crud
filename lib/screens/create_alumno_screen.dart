@@ -73,7 +73,7 @@ class _CreateForm extends StatelessWidget {
                     } else {
                       notesProvider.updateAlumno();
                     }
-                    notesProvider.resetNoteData();
+                    notesProvider.resetAlumnoData();
                     notesProvider.isLoading = false;
                     actualOptionProvider.selectedOption = 0;
                   },

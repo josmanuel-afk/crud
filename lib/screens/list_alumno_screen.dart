@@ -66,7 +66,7 @@ class _List extends StatelessWidget {
           onSelected: (int i) {
             if (i == 0) {
               notesProvider.createOrUpdate = "update";
-              notesProvider.assignDataWithNote(notes[index]);
+              notesProvider.assignDataWithAlumno(notes[index]);
               Provider.of<ActualOptionProvider>(context, listen: false)
                   .selectedOption = 1;
               return;
