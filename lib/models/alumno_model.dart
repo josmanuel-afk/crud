@@ -1,5 +1,4 @@
 
-
 import 'dart:convert';
 
 Alumno noteFromJson(String str) => Alumno.fromJson(json.decode(str));

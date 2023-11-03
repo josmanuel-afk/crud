@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../models/note_model.dart';
+import '../models/alumno_model.dart';
 import 'db_provider.dart';
 
 class AlumnoProvider extends ChangeNotifier {

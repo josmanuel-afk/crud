@@ -5,7 +5,7 @@ import 'package:sqflite/sqflite.dart';
 
 import 'package:path/path.dart';
 
-import '../models/note_model.dart';
+import '../models/alumno_model.dart';
 
 class DBProvider {
   static Database? _database;

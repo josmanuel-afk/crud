@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:notes_crud_local_app/providers/actual_option_provider.dart';
 import 'package:provider/provider.dart';
-
 import '../providers/alumno_provider.dart';
+
+
+
 
 class ListAlumnoScreen extends StatelessWidget {
   const ListAlumnoScreen({Key? key}) : super(key: key);
