@@ -21,8 +21,6 @@ class AlumnoProvider extends ChangeNotifier {
   }
 
   bool isValidForm() {
-    print(formKey.currentState?.validate());
-
     return formKey.currentState?.validate() ?? false;
   }
 
@@ -57,13 +55,13 @@ class AlumnoProvider extends ChangeNotifier {
 
 
 
-  assignDataWithNote(Alumno note) {
-    id = note.id;
-    nombre = note.nombre;
-    edad = note.edad;
+  assignDataWithAlumno(Alumno alumno) {
+    id = alumno.id;
+    nombre = alumno.nombre;
+    edad = alumno.edad;
   }
 
-  resetNoteData() {
+  resetAlumnoData() {
     id = null;
     nombre = '';
     edad = '';
